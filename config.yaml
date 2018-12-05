@@ -1,0 +1,10 @@
+baseURL: /
+title: "Eduar Tua - Software Developer, Creator"
+defaultContentLanguage: en
+languages:
+  en:
+    lang: en
+    languageName: English
+    weight: 1
+MetaDataFormat: "yaml"
+theme: "tua"
