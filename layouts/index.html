@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
-    <p>Hello World!</p>
+    {{ range first 10 .Data.Pages }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
 </body>
 </html>
