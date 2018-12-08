@@ -12,7 +12,7 @@
 
 {{ else }}
 
-    {{ $css := $sass | resources.ExecuteAsTemplate "main.scss" . | toCSS $cssOpts | resources.PostCSS | fingerprint }}
+    {{ $css := $sass | resources.ExecuteAsTemplate "main.scss" . | toCSS $cssOpts | fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink | absURL }}" integrity="{{ $css.Data.Integrity }}" media="screen">
 
 {{ end }}
