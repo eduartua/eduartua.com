@@ -3,5 +3,10 @@
 <title>{{ block "title" . }}
     {{ .Site.Title }}
 {{ end }}</title>
+
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
 {{ partial "css.html" . }}
 </head>
