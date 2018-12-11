@@ -7,11 +7,4 @@
       </article>
     {{ end }}
   {{ end }}
-
-  <h1>Pages</h1>
-  {{ range .Data.Pages  }}
-    {{ if eq .Type "page" }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ end }}
-  {{ end }}
 {{ end }}
