@@ -3,8 +3,13 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: $color-grey-dark-4;
+
+    h1 {
+        font-family: 'Roboto Slab', serif;
+        color: $color-grey-dark-3;
+    }
 }
 
-//font-family: 'Great Vibes', cursive;
-//font-family: 'Maven Pro', sans-serif;
-//font-family: 'Roboto Slab', serif;
+.logo__text {
+    font-family: 'Great Vibes', cursive;
+}
