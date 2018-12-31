@@ -3,13 +3,35 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: $color-grey-dark-4;
-
-    h1 {
-        font-family: 'Roboto Slab', serif;
-        color: $color-grey-dark-3;
-    }
 }
 
-.logo__text {
+.header__logo-text {
     font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3rem;
+    background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    color: transparent;
+}
+
+.heading-primary {
+       
+    &--main {
+        color: $color-grey-dark-3;
+        font-size: 4.5rem;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    &--sub {
+        color: $color-grey-dark-4;
+        font-size: 2rem;
+    }
 }
