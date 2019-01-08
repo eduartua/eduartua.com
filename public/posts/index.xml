@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eduar Tua - Software Developer, Creator</title>
-    <link>https://eduartua.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content on Eduar Tua - Software Developer, Creator</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 05 Dec 2018 16:05:36 -0600</lastBuildDate>
     
-	<atom:link href="https://eduartua.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Second</title>
-      <link>https://eduartua.com/posts/second/</link>
+      <title>My experience applying to Outreachy</title>
+      <link>/posts/second/</link>
       <pubDate>Wed, 05 Dec 2018 16:05:36 -0600</pubDate>
       
-      <guid>https://eduartua.com/posts/second/</guid>
+      <guid>/posts/second/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Outreachy experience: Thoughts for future interns.</title>
-      <link>https://eduartua.com/posts/first/</link>
+      <link>/posts/first/</link>
       <pubDate>Wed, 05 Dec 2018 16:05:27 -0600</pubDate>
       
-      <guid>https://eduartua.com/posts/first/</guid>
+      <guid>/posts/first/</guid>
       <description>I am working on enhancing the Kubernetes developer guide as an Outreachy intern, which consists of creating a guide that can be easily found, and logically organized. It is aimed at code contributors that want to improve the kubernetes functionality or fix bugs. One of the main goals is that new and existing contributors can have a good grasp of the whole course of making changes or improvements to the code after reading the guide.</description>
     </item>
     

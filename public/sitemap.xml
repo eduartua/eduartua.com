@@ -3,50 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eduartua.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-01-08T00:02:49-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eduartua.com/posts/second/</loc>
-    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eduartua.com/posts/first/</loc>
-    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eduartua.com/</loc>
+    <loc>/work/</loc>
     <lastmod>2019-01-08T00:02:49-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eduartua.com/posts/</loc>
+    <loc>/posts/second/</loc>
     <lastmod>2018-12-05T16:05:36-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eduartua.com/categories/</loc>
+    <loc>/posts/first/</loc>
+    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-01-08T00:02:49-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eduartua.com/tags/kubernetes/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/internship/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kubernetes/</loc>
     <lastmod>2018-12-05T16:05:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eduartua.com/tags/outreachy/</loc>
-    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
+    <loc>/tags/outreachy/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eduartua.com/tags/</loc>
-    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2018-12-05T16:05:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
