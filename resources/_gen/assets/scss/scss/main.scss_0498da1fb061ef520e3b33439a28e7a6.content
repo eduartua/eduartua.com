@@ -74,6 +74,9 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
 
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
 .btn-text:link, .btn-text:visited {
   color: #ff30ad;
   font-size: 2rem;
@@ -92,6 +95,9 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0px); }
+
+.content p {
+  font-size: 2rem; }
 
 .post-block {
   padding: 3rem 6rem;

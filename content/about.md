@@ -1,9 +1,7 @@
 ---
-title: "about"
-description: "About Eduar's blog"
-date: "2018-12-06"
+title: "About me"
+date: 2019-01-08T00:02:49-06:00
+draft: false
 ---
-
-## about me
 
 Hi there, you just reached my blog.

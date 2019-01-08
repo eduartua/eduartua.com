@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="section-posts">
+  <div class="row u-margin-bottom-big">
+    <article>
+        <h1 class="heading-primary--sub"><a href="{{ .Permalink }}" class="heading-primary--sub__link">{{ .Title }}</a></h1>
+        <div class="content">
+        {{ .Content }}
+        </div>
+    </article>
+  </div>  
+</section>
+
+{{ end }}
