@@ -9,14 +9,24 @@
                     <li class="header__item"><a href="/" class="header__link">Home</a></li>
                     <li class="header__item"><a href="/about" class="header__link">About</a></li>
                     <li class="header__item"><a href="/work" class="header__link">Work </a></li>
-                    <li class="header__item"><a href="/blog" class="header__link">Blog</a></li>
+                    <li class="header__item"><a href="/posts" class="header__link">Blog</a></li>
                 </ul>
             </nav>
         </div>
     </div>
-    <div class="row">
+
+    <div class="row u-margin-bottom-small">
         <div class="header__img-box">
-            <img src="images/undraw_coding_6mjf.svg" alt="Header image" class="header__img">
+            {{ with .Resources.Match "images/*" }}
+            <div class="Carousel__slide">
+            {{ range . }}
+                <img src="{{ .RelPermalink }}">
+            {{ end }}
+            </div>
+            {{ end }}
+            {{ with .Resources.GetMatch "undraw_*" }}
+                    <img src="{{ .RelPermalink }}" alt="Header" class="header__img">
+            {{ end }}
         </div>
     </div>
 </header>

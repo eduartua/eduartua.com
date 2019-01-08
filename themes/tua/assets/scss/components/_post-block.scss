@@ -1,0 +1,29 @@
+.post-block {
+    padding: 3rem 6rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+
+    &__info {
+        margin-bottom: 2.5rem;
+    }
+
+    &__icon {
+        padding-right: 1rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transform: translateY(.3rem);
+    }
+
+    span:not(:last-child) {
+        margin-right: 3rem;
+    }
+
+    p {
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+}

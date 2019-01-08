@@ -38,8 +38,32 @@ body {
   font-family: 'Roboto Slab', serif; }
 
 .heading-primary--sub {
-  color: #031306;
-  font-size: 2rem; }
+  font-size: 4rem; }
+  .heading-primary--sub__link {
+    color: #ff30ad;
+    background-color: #fff;
+    border-bottom: 1px solid #FEAD00;
+    line-height: 1.2;
+    text-decoration: none;
+    display: inline-block; }
+
+.heading-secondary {
+  font-size: 3rem; }
+  .heading-secondary__link {
+    color: #ff30ad; }
+    .heading-secondary__link:link, .heading-secondary__link:visited {
+      background-color: #fff;
+      border-bottom: 1px solid #FEAD00;
+      line-height: 1.2;
+      text-decoration: none;
+      display: inline-block;
+      transition: all .2s; }
+    .heading-secondary__link:hover, .heading-secondary__link:active {
+      background-color: #ff30ad;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      border-bottom: 0;
+      color: #fff;
+      transform: scale(1.01); }
 
 .u-margin-bottom-zero {
   margin-bottom: 0 !important; }
@@ -47,9 +71,12 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 2rem !important; }
 
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
 .btn-text:link, .btn-text:visited {
   color: #ff30ad;
-  font-size: 1.6rem;
+  font-size: 2rem;
   display: inline-block;
   text-decoration: none;
   border-bottom: 2px solid #ff30ad;
@@ -65,6 +92,25 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0px); }
+
+.post-block {
+  padding: 3rem 6rem;
+  font-size: 2rem;
+  margin-bottom: 5rem; }
+  .post-block__info {
+    margin-bottom: 2.5rem; }
+  .post-block__icon {
+    padding-right: 1rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #ff70df, #c7007e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translateY(0.3rem); }
+  .post-block span:not(:last-child) {
+    margin-right: 3rem; }
+  .post-block p:not(:last-child) {
+    margin-bottom: 3rem; }
 
 .footer {
   background-color: #333;
@@ -89,13 +135,13 @@ body {
     display: inline-block;
     transition: all .2s; }
   .footer__link:hover, .footer__link:active {
-    color: #03fd21;
+    color: #FEAD00;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     transform: rotate(5deg) scale(1.3); }
   .footer__copyright {
     border-top: 1px solid #eee;
     padding-top: 2rem;
-    width: 80%;
+    width: 60%;
     float: right; }
 
 .row {
@@ -124,38 +170,41 @@ body {
   .row .col-3-of-4 {
     width: calc((3 * (100% - 18rem) / 4) + (2 * 6rem)); }
 
-.header {
-  height: 55vh; }
-  .header__list {
-    list-style: none;
-    padding: 7rem; }
-  .header__item {
-    display: inline-block; }
-    .header__item:not(:last-child) {
-      margin-right: 4rem; }
-  .header__link:link, .header__link:visited {
-    color: #333;
-    display: inline-block;
-    border-bottom: 2px solid #ff30ad;
-    line-height: 2.1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .3s; }
-  .header__link:hover, .header__link:active {
-    color: #ff30ad;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    border-bottom: 0;
-    transform: rotate(5deg) scale(1.3); }
-  .header__img-box {
-    text-align: center;
-    margin-bottom: 8rem; }
-  .header__img {
-    width: 40rem;
-    height: auto; }
+.header__list {
+  list-style: none;
+  padding: 7rem; }
+
+.header__item {
+  display: inline-block; }
+  .header__item:not(:last-child) {
+    margin-right: 4rem; }
+
+.header__link:link, .header__link:visited {
+  color: #333;
+  display: inline-block;
+  border-bottom: 2px solid #ff30ad;
+  line-height: 2.1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s; }
+
+.header__link:hover, .header__link:active {
+  color: #ff30ad;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-bottom: 0;
+  transform: rotate(5deg) scale(1.3); }
+
+.header__img-box {
+  margin-bottom: 2rem;
+  text-align: center; }
+
+.header__img {
+  width: 40rem;
+  height: auto; }
 
 .section-welcome {
-  padding: 25rem;
+  padding: 20rem 25rem;
   margin-top: -20vh; }
   .section-welcome__me {
     font-size: 2.4rem; }

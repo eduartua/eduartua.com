@@ -3,39 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://eduartua.com/about/</loc>
     <lastmod>2018-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/second/</loc>
+    <loc>https://eduartua.com/posts/second/</loc>
     <lastmod>2018-12-05T16:05:36-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/first/</loc>
+    <loc>https://eduartua.com/posts/first/</loc>
     <lastmod>2018-12-05T16:05:27-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>https://eduartua.com/</loc>
     <lastmod>2018-12-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://eduartua.com/posts/</loc>
     <lastmod>2018-12-05T16:05:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eduartua.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://eduartua.com/tags/kubernetes/</loc>
+    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eduartua.com/tags/outreachy/</loc>
+    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eduartua.com/tags/</loc>
+    <lastmod>2018-12-05T16:05:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   

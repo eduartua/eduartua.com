@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="section-posts">
+  <div class="row">
+    {{ if eq .Type "posts" }}
+      <article>
+        <div class="post-block">
+          <h1 class="heading-primary--sub"><a href="{{ .Permalink }}" class="heading-primary--sub__link">{{ .Title }}</a></h1>
+          <div class="post-block__info">
+            <p>
+              <span><i class="icon-basic-clock post-block__icon"></i>{{ .ReadingTime}} minute read</span>
+              <time><i class="icon-basic-notebook-pen post-block__icon"></i>Published: {{ .PublishDate.Format "January 2, 2006" }}</time>
+            </p>
+          </div>
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+          
+
+      </article>
+    {{ end }}
+  </div>  
+</section>
+
+{{ end }}

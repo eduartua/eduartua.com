@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Eduar Tua - Software Developer, Creator
+    </title>
+
+    
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="https://eduartua.com/css/styles.bc14ea7560868dea5fee55311b8d7758651027bbe6fb4dba162824bdcddf4c11.css" integrity="sha256-vBTqdWCGjepf7lUxG413WGUQJ7vm&#43;026Figkvc3fTBE=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://eduartua.com/css/icon-font.e72d787b95e731590cbe052a3198b78dac94994b1ae779b1454dc8e9a443ab31.css" integrity="sha256-5y14e5XnMVkMvgUqMZi3jayUmUsa53mxRU3I6aRDqzE=" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Maven+Pro|Roboto+Slab" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <header class="header">
+    <div class="row u-margin-bottom-zero">
+        <div class="col-1-of-2">
+            <span class="header__logo-text"><a href="/" class="header__logo-link">Eduar Tua</a></span>
+        </div>
+        <div class="col-1-of-2">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="/" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="/about" class="header__link">About</a></li>
+                    <li class="header__item"><a href="/work" class="header__link">Work </a></li>
+                    <li class="header__item"><a href="/posts" class="header__link">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row u-margin-bottom-small">
+        <div class="header__img-box">
+            
+            
+        </div>
+    </div>
+</header>
+    
+    
+<section class="section-posts">
+  <div class="row">
+    
+      <article>
+        <div class="post-block">
+          <h1 class="heading-primary--sub"><a href="https://eduartua.com/posts/first/" class="heading-primary--sub__link">Outreachy experience: Thoughts for future interns.</a></h1>
+          <div class="post-block__info">
+            <p>
+              <span><i class="icon-basic-clock post-block__icon"></i>5 minute read</span>
+              <time><i class="icon-basic-notebook-pen post-block__icon"></i>Published: December 5, 2018</time>
+            </p>
+          </div>
+          <div class="paragraph">
+            <p>I am working on enhancing the Kubernetes developer guide as an Outreachy intern, which consists of creating a guide that can be easily found, and logically organized. It is aimed at code contributors that want to improve the kubernetes functionality or fix bugs. One of the main goals is that new and existing contributors can have a good grasp of the whole course of making changes or improvements to the code after reading the guide. Also, it is considered a source of truth for certain development docs and processes so that folks are reading them recurrently.</p>
+
+<p>Before continuing, you may be wondering what Kubernetes is? Kubernetes is an open source orchestrator for deploying containerized applications. I’ll be the first to admit that it is a short definition but complex for newcomers, so let’s break it down. An orchestrator is an application whose objective is to arrange and coordinate the interconnections and interactions of automated tasks or workloads. It connects them into a cohesive process or workflow. Before technologies like kubernetes, usually applications were built to run as a monolith on virtual machines independent from others computing applications. Now, taking advantage of technologies like linux containers <a href="https://en.wikipedia.org/wiki/LXC">LXC</a> and its new methods of operating-system-level virtualization, we can decouple those monolithic systems into microservices using linux containers, and that is what we call a containerized application.</p>
+
+<p>A real example of a monolithic application can be a web app like the Outreachy web application (considered a workload) that serves the site where interns did the application process. An option of breaking it down into microservices could be; a microservice for the authentication system, one for the frontend, and one for the code that access the database. Each microservice can now run on containers, and we can use  Kubernetes as the production-grade orchestrator of our containerized application. This is a transformation that will lead to build and deploy a new reliable, scalable distributed system successfully.</p>
+
+<p>The project itself is huge. It is written with the Go programing language, but that does not mean that you have to be a Go developer to contribute. In the community you will find professionals from differents areas; technical writers, system administrators, software developers, project managers among others. There are around 153 repositories on <a href="https://github.com/kubernetes">github</a> with more than two hundred Github events hourly, that is a lot of people contributing (<a href="https://k8s.devstats.cncf.io/d/12/dashboards?refresh=15m&amp;orgId=1">see stats</a>). So, no matter what your background is, you are welcome to be part of the community and start contributing. The code contributors that we will find there are either developers building upstream or just someone building on top of Kubernetes, both of them will be using this guide extensively.</p>
+
+<p>The main problem the community is trying to solve with this project is to keep an up-to-date developer guide. At this moment the velocity in which the project grows is faster than the way the documentation is updated. The actual content which makes up the guide has information that is obsolete, outdated or that has to be removed. This situation can redirect code contributors to a confusion state where they will have to spend more time understanding the process of getting involved with the project or how a certain workflow or architecture is diagrammed. Thus, they could end losing some of the initial motivation or falling out of the funnel.</p>
+
+<p>When you are asking yourself if a project is a good fit for you, the first thing you might look at is the documentation. Reading part of it will give you a sense of the project complexity, and if it is written in an intuitive and well organized manner, it will increase your motivation to contribute. That is what this guide aims to be, and this excites me immensely because after doing it I’ll be helping indirectly other developers to smooth the way for their familiarity with the code contribution process.</p>
+
+<p>In the beginning I was sort of disoriented. There were some terms that I didn’t know what they meant. For example, as a fun fact, I read somewhere the acronym of Special Interest Group (SIG) thinking about it as a kind of technology. I’ve found very interesting concepts when reading the documentation. One of them is the reconciliation loop which is a type of algorithm that analyzes, observes the shared state of a Kubernetes cluster through the apiserver and make changes trying to move the current state towards the desired state. It is mind blowing that just a loop can do that. Also, I didn’t know simple things like e2e that means End to End or flaky-test that means a test that could fail or pass for the same input data. There are more, but those are the ones that come to my mind now.</p>
+
+<p>The journey digesting the content was hard the very first weeks, but it’s been getting better lately with the help received from the community. When I ask something on slack, I always get not only answers but also kindness. To finish this post I’ll tell you something: we all are newcomers at some point of our lives in everything we do. It is ok if you do not know everything, there will be always a chance of finding help and guidance in the community.</p>
+
+<p>If you want to help building this guide, here is the <a href="https://github.com/kubernetes/community/issues/3064">link</a> to the umbrella issue.</p>
+
+          </div>
+        </div>
+          
+
+      </article>
+    
+  </div>  
+</section>
+
+
+    
+
+    <footer class="footer">
+  <div class="row">
+    <div class="col-1-of-2">
+      <div class="footer__social">
+          <ul class="footer__list">
+              <li class="footer__item"><a href="https://twitter.com/eduartua" class="footer__link">Twitter</a></li>
+              <li class="footer__item"><a href="https://github.com/eduartua" class="footer__link">Github</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Youtube</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="col-1-of-2">
+      <div class="footer__copyright">
+        <p>
+          &copy; 2017-18 Eduar Tua. <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution" class="footer__link">Some rights reserved</a>; please attribute properly and link back.</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
