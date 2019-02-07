@@ -39,9 +39,13 @@ I would say that the project timeline has been doing really good, even though th
 After being familiar with the entire contribution process, then everything was so smooth that I was really happy about the speed change I got. First, I created an umbrella issue ([see the issue]) where all planned things were discussed with my mentors and other collaborators. Later, after a few revisions I started creating pull requests and others issues. All of this made that all the  planned things for weeks 5-9 were finished ahead of time.
 
 
-At the time of writing this blog post, we have cleaned the Kubernetes developer guide folder and most of the documents have been reviewed and updated. Also, there were documents that were not relevant to the contribution process anymore, and that was because the information was  outdated. Those documents were deleted. So far, I have filed two issues ([second issue]) and have made twenty three  pull request that have been merged.
+At the time of writing this blog post, we have cleaned the Kubernetes developer guide folder and most of the documents have been reviewed and updated. Also, there were documents that were not relevant to the contribution process anymore, and that was because the information was  outdated. Those documents were deleted. So far, I have filed two issues ([second issue]) and have made twenty three  pull request that have been merged, and last but not least I have becomer member of the Kubernetes Organization with the priviledge of review code and pull requests. 
 
+All of what I have achieved is in part thanks to the community. The Kubernetes community is amazing and you'll feel at home immediatly after you start contributing. Look what Christoph Beckler said about my contributions on the shoutouts slack channel.
 
+{{< figure src="/images/slack.jpg" title="Shoutout on slack channel" width="60%">}}
+
+<br/>
 My internship is going to finish in four weeks. The last part is going to be about content creation. I already have created an skeleton with points I think we can add to the development.md document. Even though we already have high quality documents owned by every SIG ([see]), I believe there is a lack of certain information that can be very useful for both new and existing contributors. Seeing that, the plan for the next weeks is to have that information incorporated into the corresponding files.
 
 
