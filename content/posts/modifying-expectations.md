@@ -49,7 +49,7 @@ All of what I have achieved is in part thanks to the community. The Kubernetes c
 My internship is going to finish in four weeks. The last part is going to be about content creation. I already have created an skeleton with points I think we can add to the development.md document. Even though we already have high quality documents owned by every SIG ([see]), I believe there is a lack of certain information that can be very useful for both new and existing contributors. Seeing that, the plan for the next weeks is to have that information incorporated into the corresponding files.
 
 
-I’ll keep you updated how this goes in future pots. Also, if you are applying to the Outreachy internship or are thinking of, let me know and I will be happy to assist you.
+I’ll keep you updated how this goes in future posts. Also, if you are applying to the Outreachy internship or are thinking of, let me know and I will be happy to assist you.
 
 
 [see the issue]: https://github.com/kubernetes/community/issues/3064
