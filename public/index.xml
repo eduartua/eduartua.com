@@ -5,10 +5,19 @@
     <link>/</link>
     <description>Recent content on Eduar Tua - Software Developer, Creator</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Jan 2019 00:02:49 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 00:54:44 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modifying Expectations</title>
+      <link>/posts/modifying-expectations/</link>
+      <pubDate>Thu, 07 Feb 2019 00:54:44 -0600</pubDate>
+      
+      <guid>/posts/modifying-expectations/</guid>
+      <description>Here, I’ll talk a little about how I have been accomplishing my project timeline. When we started the internship, the first requirement was to define a timeline for the project you were selected. This has to be discussed with your mentors, and if you do not have idea how it should be structured, it does not matter. They will help you and if something has to be changed (most likely to change) in the course, that is totally Okay.</description>
+    </item>
     
     <item>
       <title>About me</title>
