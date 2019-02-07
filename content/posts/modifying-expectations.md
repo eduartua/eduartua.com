@@ -52,6 +52,6 @@ My internship is going to finish in four weeks. The last part is going to be abo
 I’ll keep you updated how this goes in future pots. Also, if you are applying to the Outreachy internship or are thinking of, let me know and I will be happy to assist you.
 
 
-[see the issue]: https://github.com/kubernetes/community/issues/3064)
+[see the issue]: https://github.com/kubernetes/community/issues/3064
 [second issue]: https://github.com/kubernetes/community/issues/3097
 [see]: https://github.com/eduartua/community/tree/master/contributors/devel
