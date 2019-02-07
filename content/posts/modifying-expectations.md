@@ -44,8 +44,8 @@ At the time of writing this blog post, we have cleaned the Kubernetes developer 
 All of what I have achieved is in part thanks to the community. The Kubernetes community is amazing and you'll feel at home immediatly after you start contributing. Look what Christoph Beckler said about my contributions on the shoutouts slack channel.
 
 {{< figure src="/images/slack.jpg" title="Shoutout on slack channel" width="60%">}}
-
 <br/>
+
 My internship is going to finish in four weeks. The last part is going to be about content creation. I already have created an skeleton with points I think we can add to the development.md document. Even though we already have high quality documents owned by every SIG ([see]), I believe there is a lack of certain information that can be very useful for both new and existing contributors. Seeing that, the plan for the next weeks is to have that information incorporated into the corresponding files.
 
 
